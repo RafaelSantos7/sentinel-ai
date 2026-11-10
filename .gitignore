@@ -1,0 +1,30 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+
+
+# Ambiente virtual
+.venv/
+venv/
+
+# Credenciais
+.env
+.env.*
+!.env.example
+
+# Cache Python
+__pycache__/
+*.pyc
+
+# Modelos treinados
+*.pkl
+*.joblib
+
+# Dados grandes
+database/data/
+*.csv
+
+# Arquivos temporários
+.vscode/
+.pytest_cache/
