@@ -77,3 +77,46 @@ O modelo ainda não foi validado em transações bancárias reais. Sua utilizaç
 ## Relatório técnico
 
 Consulte `docs/relatorio_modelo_final.md` para os resultados detalhados.
+
+## Instalação e configuração
+
+### 1. Clonar o repositório
+
+```bash
+git clone https://github.com/RafaelSantos7/sentinel-ai.git
+cd sentinel-ai
+```
+
+### 2. Criar o ambiente virtual
+
+```bash
+python -m venv .venv
+```
+
+### 3. Ativar o ambiente virtual
+
+Windows (PowerShell):
+
+```powershell
+.\.venv\Scripts\Activate.ps1
+```
+
+### 4. Instalar as dependências
+
+```bash
+python -m pip install -r requirements.txt
+python -m pip install pytest
+```
+
+### 5. Executar os testes automatizados
+
+```bash
+python -m pytest tests/ -v
+```
+
+Os testes verificam a integridade das métricas finais
+e a consistência da matriz de confusão.
+
+**Observação:** O projeto utiliza dados sintéticos do PaySim.
+A reprodução completa do treinamento requer a preparação
+do dataset e a configuração do banco de dados PostgreSQL.
