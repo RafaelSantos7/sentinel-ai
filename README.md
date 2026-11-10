@@ -1,5 +1,7 @@
 # Sentinel AI — Detecção de Fraudes Financeiras
 
+[![Automated Tests](https://github.com/RafaelSantos7/sentinel-ai/actions/workflows/tests.yml/badge.svg)](https://github.com/RafaelSantos7/sentinel-ai/actions/workflows/tests.yml)
+
 Sistema de análise de transações financeiras e detecção de fraudes utilizando Python, PostgreSQL e Machine Learning.
 
 ## Objetivo
